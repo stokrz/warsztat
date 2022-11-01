@@ -14,16 +14,29 @@
     </head>
 
     <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-lg-5">
+                <a class="navbar-brand" href="#!">Warszat Wołomin</a>
+                <div class="navbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="flex-direction: row;">
+                        <li class="nav-item" style="margin-left: 20px;"><a class="nav-link" href="#dojazd">Dojazd</a></li>
+                        <li class="nav-item" style="margin-left: 20px;"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <!-- Header-->
         <header class="py-5">
             <div class="container px-lg-5">
-                <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
-                    <div class="m-4 m-lg-5">
-                        <h1 class="display-5 fw-bold">Warsztat samochodowy w Wołominie</h1>
+                <div class="p-4 bg-light rounded-3 text-center" style="padding-top: 0.4rem !important; padding-bottom: 2rem !important;">
+                    <div class="m-4">
+                        <h1 class="display-5 fw-bold">Warszat samochodowy Wołomin</h1>
                         <p class="fs-4">lata doświadczenia - profesjonalna obsługa - szeroka gama usług</p>
                         <br />
                         <a class="btn btn-primary btn-lg" href="tel:XX XXX XX XX">☎️ XX XXX XX XX</a>
                     </div>
+                    <img src="assets/warsztat2.jpg" style="max-width: 100%; max-height: 500px;" />
                 </div>
             </div>
         </header>
@@ -75,7 +88,7 @@
                     <div class="col-lg-6 col-xxl-8 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-map"></i></div>
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-map"  id="dojazd"></i></div>
                                 <h2 class="fs-4 fw-bold">Dojazd</h2>
                                 <p class="mb-0">ul. Ogrodowa 4, 05-200 Wołomin</p>
                                 <br />
@@ -88,7 +101,7 @@
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-telephone"></i></div>
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-telephone" id="kontakt"></i></div>
                                 <h2 class="fs-4 fw-bold">Kontakt</h2>
                                 <p class="mb-0">☎️ <a href="tel:XX XXX XX XX">XX XXX XX XX</a></p>
                                 <p class="mb-0">📧 <a href = "mailto: xyz@abcdef.pl">xyz@abcdef.pl</a></p>
